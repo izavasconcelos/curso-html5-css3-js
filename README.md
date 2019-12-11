@@ -13,3 +13,5 @@ Emm CSS você verá em detalhes todas as propriedades necessárias para criar la
 - Criar sites responsivos de verdade
 - Cria layouts complexos com flexbox e CSS grid
 - Criar efeitos super interessantes com CSS3
+
+Link: https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript
