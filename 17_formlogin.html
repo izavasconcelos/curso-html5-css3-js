@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- Comentário -->
+<html lang="pt-br">
+    <head>
+        <title>Página de exemplo</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Izabela">
+        <meta name="description" content="lista docs">
+        <meta name="keywords" content="html5,ti">
+        
+        <style>
+            .form{
+                width: 250px;
+                margin: 50px auto 0;
+                font-family: sans-serif;
+                
+            }
+            .form fieldset{
+                background: #ccc;
+            }
+            .form label{
+                margin: 10px;
+                display: block;
+                
+            }
+            #user,#pass,.bt{
+                display: block;
+                width: 100%;
+                box-sizing: border-box;
+                padding: 10px;
+                font-size: 18px;
+                
+            }
+            #user:focus,#pass:focus{
+                background: #cc0;
+            }
+            .bt{
+                margin-top: 15px;
+                padding: 15px;
+                
+            }
+            #pass{
+                text-transform: inherit;
+            }
+            
+        
+        </style>
+        
+    </head>
+    <body>
+        <h1>Formulário</h1>
+        <form action="#" method="POST" class="form">
+            <fieldset>
+                <legend>Login</legend>
+                <label for="user">Digite o seu usuário</label>
+                <input type="text" id="user" name="user" autofocus>
+                <label for="pass">Digite a senha</label>
+                <input type="password" id="pass" name="pass">
+                <input type="submit" value="Logar" class="bt">
+            
+            </fieldset>
+        </form>
+    </body>
+
+</html>

@@ -1,0 +1,122 @@
+body{
+    font-family: tahoma,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#principal{
+    width: 1024px;
+    margin: 20px auto;
+}
+.header-top{
+    height: 50px;
+    background: #162028;
+    position: relative;
+}
+.logotipo{
+    margin: 5px 0 0 135px;
+}
+.header-nav{
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 100%;
+}
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 13px;
+}
+.header-nav a{
+    color:#425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 4px;
+    transition: color .3s linear;
+}
+.header-nav a:hover{
+    color: white;
+}
+.topo{
+    position: relative;
+}
+.portifolio{
+    text-align: center;
+    padding: 50px 150px;
+    
+}
+.portifolio h1{
+    font-size: 28px;
+}
+.portifolio p{
+    
+    color: #606060;
+    line-height: 2;
+}
+.gallery{
+    padding: 0px 100px 50px 100px;
+    overflow: auto;
+}
+.card{
+    width: 32%;
+    float: left;
+    text-align: center;
+
+}
+
+.gallery-title{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #606060;
+    font-weight: bold;
+}
+.gallery-text{
+    color: rgba(96, 96, 96, 0.62);
+}
+.about{
+    background-color: #003d52;
+    padding: 100px;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    color: white;
+    background-position: right;
+}
+.about h1{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 50px;
+}
+.about p{
+    line-height: 1.5;
+    width: 70%
+}
+.contact address{
+    text-align: center;
+    padding: 40px 0;
+    text-transform: uppercase;
+    color: #143f52;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+}
+.maps{
+    width: 100%;
+    height: 450px;
+    margin-top: 15px;
+}
+.maps iframe{
+    width: 100%;
+}
+.rodape{
+    text-align: center;
+    background: black;
+    color: #6f8597;;
+    padding: 15px;
+    letter-spacing: 5px;
+    font-size: 12px;
+}
